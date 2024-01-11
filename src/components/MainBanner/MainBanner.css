@@ -1,0 +1,53 @@
+.main{
+    background-image: url(../assets/banner_1.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: top 25% right 90%;
+    padding: 5em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main h1{
+    color: #ED5B0E;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.main h2{
+    color: #2034A4;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6em;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 768px) {
+    .main {
+        height: 12vh; 
+        padding: 2em;
+        background-position: center; 
+    }
+
+    .main h1 {
+        font-size: 1.5rem;
+    }
+
+    .main h2 {
+        font-size: 0.8rem;
+    }
+
+    .texts {
+        padding-left: 0;
+    }
+}
+

@@ -1,0 +1,81 @@
+:root{
+	font-family: 'Poppins', sans-serif;
+	--cor-fundo: #E1E3E6;
+	--azul: #2034A4;
+	--laranja: #ED5B0E;
+}
+
+.socialmedia__container{
+    display: flex;
+    padding-bottom: 3em;
+    background: var(--cor-fundo);
+}
+
+.socialmedia__title{
+    padding: 3em 0em 3em 6em ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.socialmedia__title h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--laranja);
+}
+
+.socialmedia__title p{
+    font-size: 1.2rem;
+    color: var(--azul);
+}
+
+.socialmedia__title li{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.socialmedia__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia__img img{
+    width: 30em;
+    padding: 5em 5em 0 12em;
+}
+
+.socialmedia__title ul{
+    list-style-type:disc;
+}
+
+/* Estilos para aparelhos até 768px */
+
+@media (max-width: 768px) {
+    .socialmedia__container {
+      flex-direction: column;
+      padding-bottom: 1.5em;
+    }
+  
+    .socialmedia__title {
+      padding: 1em 2em;
+      text-align: center;
+    }
+  
+    .socialmedia__title h1 {
+      font-size: 2rem;
+    }
+  
+    .socialmedia__title p, .socialmedia__title li {
+      font-size: 1rem;
+    }
+  
+    .socialmedia__img img {
+      width: 100%;
+      max-width: 250px; /* Ajuste o valor conforme necessário */
+      padding: 1em;
+    }
+  }
+  

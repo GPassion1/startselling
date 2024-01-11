@@ -1,0 +1,28 @@
+.header__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E1E3E6;
+    box-shadow: 0 1px 3px -2px black;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 15em;
+}
+
+@media screen and (max-width: 768px) {
+    .logo img{
+        width: 10em;
+    }
+}

@@ -1,0 +1,177 @@
+:root{
+	font-family: 'Poppins', sans-serif;
+	--cor-fundo: #E1E3E6;
+	--azul: #2034A4;
+	--laranja: #ED5B0E;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em 0 1em 0;
+    margin-bottom: 2em;
+    background-image: url(../assets/logo_icon.png);
+    background-repeat: repeat;
+    background-position: 60% 60%;
+    background-color: var(--cor-fundo);
+    background-blend-mode:lighten;
+}
+
+.newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--laranja);
+    padding: 0.5em;
+    padding-right: 1em;
+}
+
+.newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--azul);
+    padding: 0.5em;
+    padding-right: 1em;
+}
+
+.newsletter p span{
+    color: var(--laranja);
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.input-group{
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.input{
+    flex: 1 0 140px;
+    all: unset;
+    color: var(--azul);
+    padding: 1rem;
+    border: 1px solid var(--laranja);
+    border-radius: 10px;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.label{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: var(--azul);
+    pointer-events: none;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.input:focus{
+    border: 1px solid var(--azul);
+}
+
+.input:is(:focus, :valid) ~ .label {
+    transform:
+        translateY(-120%)
+        scale(0.7);
+    background-color: var(--cor-fundo);
+    padding-inline: 0.3rem;
+    color: var(--laranja);
+}
+
+.input-group__email{
+    font-size: 1.25rem;
+    position: relative;
+}
+
+.input__email{
+    flex: 1 0 140px;
+    all: unset;
+    color: var(--azul);
+    padding: 1rem;
+    border: 1px solid var(--laranja);
+    border-radius: 10px;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.label__email{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: var(--azul);
+    pointer-events: none;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.input__email:focus{
+    border: 1px solid var(--azul);
+}
+
+.input__email:is(:focus, :valid) ~ .label__email {
+    transform:
+        translateY(-120%)
+        scale(0.7);
+    background-color: var(--cor-fundo);
+    padding-inline: 0.3rem;
+    color: var(--laranja);
+}
+
+.newsletter button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: var(--azul);
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid;
+    outline: none;
+    transition: 0.2s;
+}
+
+.newsletter button:hover{
+    color: var(--laranja);
+    background-color: var(--cor-fundo);
+}
+
+/* Estilos para aparelhos até 768px */
+
+@media (max-width: 768px) {
+  
+    .newsletter {
+      justify-content: center;
+      text-align: center;
+      background-position: center center;
+    }
+  
+    .newsletter h4, .newsletter p {
+      padding: 0.5em 1em;
+    }
+  
+    .formulario {
+      gap: 10px;
+    }
+  
+    .input-group, .input-group__email {
+      font-size: 1rem;
+    }
+  
+    .input, .input__email {
+      flex: 1 0 100%;
+    }
+  
+    .label, .label__email {
+      top: 0.5rem;
+      left: 0.5rem;
+    }
+  
+    .newsletter button {
+      font-size: 12px;
+      padding: 10px 20px;
+    }
+  }
+  
