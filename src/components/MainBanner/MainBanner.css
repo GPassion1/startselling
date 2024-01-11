@@ -33,9 +33,9 @@
 
 @media screen and (max-width: 768px) {
     .main {
-        height: 12vh; 
+        height: 12vh; /* Ajusta a altura automaticamente conforme o conteúdo */
         padding: 2em;
-        background-position: center; 
+        background-position: center; /* Centraliza a imagem de fundo */
     }
 
     .main h1 {
