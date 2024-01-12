@@ -35,7 +35,8 @@
     .main {
         height: 40vh; /* Ajusta a altura automaticamente conforme o conteúdo */
         padding: 2em;
-        background-position: 75% center;
+        background-position-x: 75%;
+        background-position-y: center;
     }
 
     .main h1 {
