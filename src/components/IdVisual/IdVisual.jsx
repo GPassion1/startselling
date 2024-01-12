@@ -16,7 +16,7 @@ const IdVisual = () => {
           <li>Mockup para diversos produtos</li>
           <li>Paleta de cores da sua marca</li>
           <li>Criação de logotipo com a sua ideia</li>
-          <li>Sua empresa de cara nova em todas as redes</li>
+          <li>Sua empresa de cara nova</li>
         </ul>
           </div>
     </div>

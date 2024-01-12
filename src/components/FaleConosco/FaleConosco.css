@@ -145,15 +145,20 @@
     .newsletter {
       justify-content: center;
       text-align: center;
-      background-position: center center;
+      background-position: center;
     }
   
     .newsletter h4, .newsletter p {
-      padding: 0.5em 1em;
+      padding: 0.5em 1em 0em 0.5em;
+    }
+
+    .newsletter__text{
+        padding-bottom: 1em;
     }
   
     .formulario {
       gap: 10px;
+      flex-direction: column;
     }
   
     .input-group, .input-group__email {

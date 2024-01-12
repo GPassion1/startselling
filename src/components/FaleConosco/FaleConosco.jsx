@@ -5,13 +5,13 @@ export const FaleConosco = () => {
   return (
       <div className='newsletter'>
           <div className="newsletter__text">
-            <h4>cadastre-se para novidades</h4>
-            <p>Receba novidades por e-mail e <span>ofertas especiais.</span></p>
+            <h4>Faça seu orçamento aqui!</h4>
+            <p>Cadastre seu e-mail para um <span>orçamento especializado.</span></p>
         </div>
         <div className="formulario">
             <div className="input-group">
                 <input className="input" required type="text" id="username" />
-                <label className="label" for="username">Username</label>
+                <label className="label" for="username">Nome</label>
             </div>    
             <div className="input-group__email">    
                 <input className="input__email" required type="text" id="email" />
