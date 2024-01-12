@@ -16,7 +16,7 @@ const Footer = () => {
 					<a href="#"><img src={instagram_icon} alt="" /></a>
 				</div>
 				<div className="footer-icons-container">
-					<a href="#"> <img src={pinterest_icon} alt="" /></a>
+					<a href="https://wa.me/+5521990828161" target='blank'> <img src={pinterest_icon} alt="" /></a>
 				</div>
           </div>
           <div className="footer-copyright">
