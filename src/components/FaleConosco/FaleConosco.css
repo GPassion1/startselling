@@ -12,12 +12,11 @@
     align-items: center;
     padding: 1em 0 1em 0;
     margin-bottom: 2em;
-    background-image: url(../assets/logo_icon.png);
-    background-repeat: repeat;
-    background-position: 60% 60%;
-    background-color: var(--cor-fundo);
-    background-blend-mode:lighten;
-}
+    background-color: white;
+    border: 0.2px solid grey;
+    filter: drop-shadow(3px 0px 3px grey);
+    position: sticky;
+} 
 
 .newsletter h4{
     font-size: 22px;

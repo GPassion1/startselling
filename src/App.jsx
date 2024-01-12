@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import FaleConosco from './components/FaleConosco/FaleConosco'
 import SocialMedia from './components/SocialMedia/SocialMedia'
 import IdVisual from './components/IdVisual/IdVisual'
+import Seo from './components/Seo/Seo'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Ecommerce />
       <SocialMedia />
       <IdVisual />
+      <Seo />
       <FaleConosco />
       <Footer />
     </>
